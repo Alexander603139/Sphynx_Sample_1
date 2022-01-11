@@ -1,0 +1,55 @@
+Results of doctest builder run on 2022-01-10 16:22:38
+=====================================================
+
+Document: index
+---------------
+**********************************************************************
+File "index.rst", line 18, in default
+Failed example:
+    1+1
+Expected nothing
+Got:
+    2
+**********************************************************************
+File "index.rst", line 19, in default
+Failed example:
+    print(2+2)
+Expected nothing
+Got:
+    4
+**********************************************************************
+1 items had failures:
+   2 of   2 in default
+2 tests in 1 items.
+0 passed and 2 failed.
+***Test Failed*** 2 failures.
+
+Document: page_1
+----------------
+**********************************************************************
+File "page_1.rst", line ?, in default
+Failed example:
+    factorial(2)
+Expected nothing
+Got:
+    2
+**********************************************************************
+File "page_1.rst", line ?, in default
+Failed example:
+    factorial(8)
+Expected nothing
+Got:
+    40320
+**********************************************************************
+1 items had failures:
+   2 of   3 in default
+3 tests in 1 items.
+1 passed and 2 failed.
+***Test Failed*** 2 failures.
+
+Doctest summary
+===============
+    5 tests
+    4 failures in tests
+    0 failures in setup code
+    0 failures in cleanup code
